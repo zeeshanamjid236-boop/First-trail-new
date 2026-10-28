@@ -40,8 +40,8 @@ input,textarea,select{width:100%;border:1px solid #d9e2ee;border-radius:10px;pad
 <div id="appMsg" class="notice hidden"></div>
 </main></div></div>
 <script>
-const SUPABASE_URL = "PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_PUBLIC_ANON_KEY_HERE";
+const SUPABASE_URL = "https://sxjklfvrdgoyidabyqam.supabase.co/rest/v1/";
+const SUPABASE_ANON_KEY = "sb_publishable_ohQrl6yyZz0YuC8P1xV1MA_4DRrU5as";
 const configured=SUPABASE_URL.startsWith("https://")&&!SUPABASE_URL.includes("PASTE_")&&SUPABASE_ANON_KEY.length>30&&!SUPABASE_ANON_KEY.includes("PASTE_");
 let sb=null,user=null,profile=null,isAdmin=false,currentGroup=null,chatChannel=null;
 const $=id=>document.getElementById(id);
